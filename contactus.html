@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./Img/Main Logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark  text-light ">
+        <div class="container-fluid bg-dark text-light">
+            <nav class="navbar navbar-light">
+                <div class="container d-flex justify-content-center align-content-center">
+                    <a class="navbar-brand text-primary" href="#">
+                        <!-- <h5>LearningPoint</h5> -->
+                        <img src="./Img/Main Logo.jpg" alt="">
+                    </a>
+                </div>
+            </nav>
+            <div class="navbar-toggler border-light btn-outline-success" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon btn-close-white"></span>
+            </div>
+            <div class="collapse navbar-collapse bg-dark text-light" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Video Lectures</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  text-light" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home Work
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-light" href="#">Gujarati</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Maths</a></li>
+                            <li><a class="dropdown-item text-light" href="#">English</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Science</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Social Science</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Sanskrit</a></li>
+                            <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./Aboutus.html" aria-disabled="false">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./contactus.html" aria-disabled="false">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-info p-4 ">
+        <h3 >Why Are You Waiting</h3>
+        <h1><span class="badge bg-success">Join Us Now !</span></h1>
+        <form class="container mt-4 needs-validation" method="post" action="./mysite.php">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Enter Your Name</span>
+                <input type="text" class="form-control" placeholder="Your Name..........Father's Name..........Surname"
+                    aria-label="uname" aria-describedby="basic-addon1" id="validationCustom01" required>
+            </div>
+            <br>
+            <div class="input-group mb-3">
+                <span class="input-group-text " id="basic-addon2">Enter Your Email</span>
+                <input type="text" class="form-control" placeholder="example@gmail.com"
+                    aria-label="umail" aria-describedby="basic-addon2" id="validationCustomUsername"
+                    aria-describedby="inputGroupPrepend" required>
+            </div>
+            <br>
+            <div class="input-group mb-3">
+                <span class="input-group-text " id="basic-addon2">Enter Your Mobile NO</span>
+                <input type="text" class="form-control" placeholder="Only 10 Digits " aria-label="umobile"
+                    aria-describedby="basic-addon2" required>
+            </div>
+            <br>
+            <div class="input-group mb-3">
+                <span class="input-group-text " id="basic-addon2">Enter Your Address</span>
+                <input type="text" class="form-control"
+                    placeholder="Ex. B-14/1 ABC Society, Near XYZ, DEF City, JKL State- 382330  (Pincode)"
+                    aria-label="uaddress" aria-describedby="basic-addon2" required>
+            </div>
+            <div class="col-12 mt-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label te" for="invalidCheck">
+                        *Terms & Conditions are Applied
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-3">
+                <button class="btn btn-success" type="submit">Submit form</button>
+            </div>
+            <br>
+            <br>
+        </form>
+    </div>
+
+    <div class="Footer container-fluid ">
+        <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+        <p>copyright@sherepvt.ltd</p>
+    </div>
+
+    <!-- Js and bootstrap link with html -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script>var myCarousel = document.querySelector('#myCarousel')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 1000,
+            wrap: false,
+            pause: false
+        })
+
+        var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+            target: '#navbar-example'
+        })
+
+        var dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'))
+        dataSpyList.forEach(function (dataSpyEl) {
+            bootstrap.ScrollSpy.getInstance(dataSpyEl)
+                .refresh()
+        })
+
+        var firstScrollSpyEl = document.querySelector('[data-bs-spy="scroll"]')
+        firstScrollSpyEl.addEventListener('activate.bs.scrollspy', function () {
+            // do something...
+        })
+
+        var scrollSpyContentEl = document.getElementById('content')
+        var scrollSpy = bootstrap.ScrollSpy.getOrCreateInstance(scrollSpyContentEl) // Returns a Bootstrap scrollspy instance
+
+        var dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'))
+        dataSpyList.forEach(function (dataSpyEl) {
+            bootstrap.ScrollSpy.getInstance(dataSpyEl)
+                .refresh()
+        })
+    </script>
+</body>
+
+</html>
